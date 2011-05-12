@@ -29,9 +29,9 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.regex.PatternSyntaxException;
 
-import com.thalesgroup.variablesextractor.glob.Paths;
-import com.thalesgroup.variablesextractor.regexp.NamedMatcher;
-import com.thalesgroup.variablesextractor.regexp.NamedPattern;
+import com.esotericsoftware.wildcard.Paths;
+import com.google.code.regexp.NamedMatcher;
+import com.google.code.regexp.NamedPattern;
 import com.thalesgroup.variablesextractor.util.ExtractionException;
 import com.thalesgroup.variablesextractor.util.MultipleFilesMatchedException;
 
